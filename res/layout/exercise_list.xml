@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtWeight"
+        android:layout_below="@+id/editSets"
+        android:layout_marginTop="58dp"
+        android:onClick="addButton"
+        android:text="Create" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCreate"
+        android:layout_alignBottom="@+id/btnCreate"
+        android:layout_alignRight="@+id/editSets"
+        android:layout_marginRight="19dp"
+        android:onClick="showData"
+        android:text="Show List" />
+
+    <TextView
+        android:id="@+id/txtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editReps"
+        android:layout_alignRight="@+id/txtExercise2"
+        android:layout_marginBottom="22dp"
+        android:text="Weight" />
+
+    <TextView
+        android:id="@+id/txtSets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtReps"
+        android:layout_centerVertical="true"
+        android:text="Set" />
+
+    <EditText
+        android:id="@+id/editReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editSets"
+        android:layout_toRightOf="@+id/txtWeight"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtWeight"
+        android:layout_alignBottom="@+id/txtWeight"
+        android:layout_alignLeft="@+id/editReps"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editSets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtSets"
+        android:layout_alignBottom="@+id/txtSets"
+        android:layout_alignLeft="@+id/editReps"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editWeight"
+        android:layout_toRightOf="@+id/txtExercise2"
+        android:entries="@array/Exercise"
+        android:prompt="@string/select" />
+
+    <TextView
+        android:id="@+id/txtExercise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinExercise"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="14dp"
+        android:text="Exercise" />
+
+    <TextView
+        android:id="@+id/txtReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editReps"
+        android:layout_alignBottom="@+id/editReps"
+        android:layout_alignLeft="@+id/txtWeight"
+        android:text="Reps" />
+
+</RelativeLayout>

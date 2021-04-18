@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WorkoutApp</string>
+
+    <string-array name="Muscles"></string-array>
+    <string-array name="muscle_list_entries">
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Legs</item>
+        <item>Triceps</item>
+        <item>Abdomen</item>
+        <item>Forearm</item>
+        <item>Bicep</item>
+        <item>Buttocks</item>
+        <item>Shoulders</item>
+    </string-array>
+
+    <string name="muscle_menu">Muscle List</string>
+    <string name="Muscles">Muscles</string>
+    <string name="title_activity_muscle_guide2">MuscleGuide2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_muscle_guide">MuscleGuide</string>
+    <string name="title_activity_workout_list">WorkoutList</string>
+    <string name="title_activity_goals_list">GoalsList</string>
+    <string name="title_activity_chest_list">ChestList</string>
+    <string name="chest_menu">Chest Exercises</string>
+
+    <string-array name="chest_list_entries">
+        <item>Bench Press</item>
+        <item>Incline Press</item>
+        <item>Decline Press</item>
+        <item>Push-Ups</item>
+        <item>Dumbbell Bench Press</item>
+        <item>Dumbbell Flies</item>
+        <item>Incline Dumbbell Press</item>
+    </string-array>
+
+    <string name="title_activity_back_list">BackList</string>
+    <string name="back_menu">Back Exercise List</string>
+
+    <string-array name="back_list_entries">
+        <item>Lat Pulldowns</item>
+        <item>Seated Rows</item>
+        <item>One-Arm Dumbbell Rows</item>
+        <item>Deadlifts</item>
+    </string-array>
+
+    <string name="title_activity_legs_list">LegsList</string>
+    <string name="legs_menu">Legs Exercise List</string>
+
+    <string-array name="legs_list_entries">
+        <item>Squats</item>
+        <item>Dumbbell Squats</item>
+        <item>Leg Extensions</item>
+        <item>Seated Leg Curls</item>
+        <item>Standing Calf Raises</item>
+        <item>Lunges</item>
+    </string-array>
+
+    <string name="title_activity_triceps_list">TricepsList</string>
+    <string name="triceps_menu">Triceps Exercise List</string>
+
+    <string-array name="triceps_list_entries">
+        <item>Pushdowns</item>
+        <item>Triceps Extensions</item>
+        <item>Dumbbell Triceps Extensions</item>
+        <item>Triceps Dips</item>
+    </string-array>
+
+    <string name="title_activity_abdomen_list">AbdomenList</string>
+    <string name="abdomen_menu">Abdomen Exercise List</string>
+
+    <string-array name="abdomen_list_entries">
+        <item>Crunches</item>
+        <item>Decline Bench Sit-ups</item>
+        <item>Machine Crunches</item>
+        <item>Leg Raises</item>
+        <item>Weighted Twists</item>
+    </string-array>
+
+    <string name="forearm_menu">Forearm Exercise List</string>
+
+    <string-array name="forearm_list_entries">
+        <item>Wrist Curls</item>
+    </string-array>
+
+    <string name="bicep_menu">Bicep Exercise List</string>
+
+    <string-array name="bicep_list_entries">
+        <item>Bicep Curls</item>
+        <item>Barbell Curls</item>
+        <item>Machine Curls</item>
+    </string-array>
+
+    <string name="buttocks_menu">Buttocks Exercise List</string>
+
+    <string-array name="buttocks_list_entries">
+        <item>Cable Back Kicks</item>
+        <item>Machine Hip Extensions</item>
+    </string-array>
+
+    <string name="shoulders_menu">Shoulders Exercise List</string>
+
+    <string-array name="shoulders_list_entries">
+        <item>Dumbbell Shoulder Press</item>
+        <item>Military Press</item>
+        <item>Bent Over Lateral Raises</item>
+        <item>Front Raises</item>
+    </string-array>
+
+    <string name="title_activity_forearm_list">ForearmList</string>
+    <string name="title_activity_bicep_list">BicepList</string>
+    <string name="title_activity_buttocks_list">ButtocksList</string>
+    <string name="title_activity_shoulders_list">ShouldersList</string>
+    <string name="title_activity_exercise_list">ExerciseList</string>
+
+    <string-array name="Exercise">
+        <item>Barbell Curls</item>
+        <item>Bench Press</item>
+        <item>Bent Over Lateral Raises</item>
+        <item>Bicep Curls</item>
+        <item>Cable Back Kicks</item>
+        <item>Crunches</item>
+        <item>Deadlifts</item>
+        <item>Decline Press</item>
+        <item>Decline Bench Sit-ups</item>
+        <item>Dumbbell Bench Press</item>
+        <item>Dumbbell Flies</item>
+        <item>Dumbbell Shoulder Press</item>
+        <item>Dumbbell Squats</item>
+        <item>Dumbbell Triceps Extensions</item>
+        <item>Front Raises</item>
+        <item>Incline Dumbbell Press</item>
+        <item>Incline Press</item>
+        <item>Lat Pulldowns</item>
+        <item>Leg Raises</item>
+        <item>Lunges</item>
+        <item>Machine Curls</item>
+        <item>Machine Crunches</item>
+        <item>Machine Hip Extensions</item>
+        <item>Military Press</item>
+        <item>Pushdowns</item>
+        <item>Push-Ups</item>
+        <item>Seated Leg Curls</item>
+        <item>Standing Calf Raises</item>
+        <item>Squats</item>
+        <item>Triceps Dips</item>
+        <item>Triceps Extensions</item>
+        <item>Weighted Twists</item>
+        <item>Wrist Curls</item>
+    </string-array>
+
+    <string name="select">Select Exercise</string>
+    <string name="workout_menu">Workout List</string>
+
+    <string-array name="workout_list">
+        <item>Workout 1</item>
+        <item>Workout 2</item>
+        <item>Workout 3</item>
+    </string-array>
+
+    <string name="title_activity_exercise_list3">ExerciseList3</string>
+    <string name="title_activity_exercise_list2">ExerciseList2</string>
+
+</resources>

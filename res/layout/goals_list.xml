@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="24dp"
+        android:text="Enter Goal" />
+
+    <EditText
+        android:id="@+id/editGoal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnShowGoals"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="42dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnAddGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editGoal"
+        android:layout_alignTop="@+id/btnShowGoals"
+        android:onClick="addButton"
+        android:text="Add Goal" />
+
+    <Button
+        android:id="@+id/btnShowGoals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editGoal"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="42dp"
+        android:onClick="showData"
+        android:text="Show List" />
+
+</RelativeLayout>
